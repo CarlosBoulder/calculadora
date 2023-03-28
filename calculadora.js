@@ -6,7 +6,7 @@ let operations = "";
 let displayAll = "";
 
 
-addDigit = (digit) => {
+const addDigit = (digit) => {
     if(displayAll.length < 20){
         actualNumber += digit;
         displayAll += digit;
